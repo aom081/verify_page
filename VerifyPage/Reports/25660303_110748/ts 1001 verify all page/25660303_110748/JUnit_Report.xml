@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts 1001 verify all page" time="7.587" tests="1" failures="1" errors="0">
+   <testsuite name="ts 1001 verify all page" tests="1" failures="1" errors="0" time="7.587" skipped="0" timestamp="2566-03-03 11:07:55" hostname="Administrator - 10.53.16.229" id="Test Suites/ts 1001 verify all page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\VerifyPage\\Reports\\25660303_110748\\ts 1001 verify all page\\25660303_110748"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\VerifyPage\\Reports\\25660303_110748\\ts 1001 verify all page\\25660303_110748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 10.53.16.229"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="10.53.16.229"/>
+         <property name="sessionId" value="4255c31c3b9d43ede99d0652e249efd6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/tc1001 VerifyPage" time="7.39" classname="Test Cases/tc1001 VerifyPage" status="FAILED">
+         <failure type="FAILED" message="Test Cases/tc1001 VerifyPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2566-03-03 11:07:55 - [TEST_CASE][FAILED] - Test Cases/tc1001 VerifyPage: Test Cases/tc1001 VerifyPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2566-03-03 11:07:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-03-03 11:07:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-03-03 11:07:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-03-03 11:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-03-03 11:07:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.cloudnative-skill.com/register"): Navigate to 'https://www.cloudnative-skill.com/register' successfully
+
+2566-03-03 11:08:01 - [MESSAGE][PASSED] - Navigate to 'https://www.cloudnative-skill.com/register' successfully
+
+2566-03-03 11:08:01 - [TEST_STEP][PASSED] - verifyTextPresent("Register", false): Text 'Register' is present on page 
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Text 'Register' is present on page 
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Modern Software Development Toolchains'
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Current window's title is: 'Modern Software Development Toolchains'
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - verifyMatch(title, "Modern Software Development Toolchains", false): Actual text 'Modern Software Development Toolchains' and expected text 'Modern Software Development Toolchains' are matched 
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Actual text 'Modern Software Development Toolchains' and expected text 'Modern Software Development Toolchains' are matched 
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - brachtext = getAttribute(findTestObject("brach_dispaly_text"), "placeholder"): Attribute 'placeholder' of object 'Object Repository/brach_dispaly_text' is: 'เช่น สำนักงานใหญ่'
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Attribute 'placeholder' of object 'Object Repository/brach_dispaly_text' is: 'เช่น สำนักงานใหญ่'
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - verifyMatch(brachtext, "เช่น สำนักงานใหญ่", false): Actual text 'เช่น สำนักงานใหญ่' and expected text 'เช่น สำนักงานใหญ่' are matched 
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Actual text 'เช่น สำนักงานใหญ่' and expected text 'เช่น สำนักงานใหญ่' are matched 
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("chack_html"), 0): Object 'Object Repository/chack_html' is not checked
+
+2566-03-03 11:08:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2566-03-03 11:08:02 - [MESSAGE][PASSED] - Object 'Object Repository/chack_html' is not checked
+
+2566-03-03 11:08:02 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("voie_name"), STOP_ON_FAILURE): Object 'Object Repository/voie_name' is NOT clickable
+
+2566-03-03 11:08:03 - [MESSAGE][PASSED] - Object 'Object Repository/voie_name' is NOT clickable
+
+2566-03-03 11:08:03 - [TEST_STEP][FAILED] - takeAreaScreenshot(null): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at Script1677810927673.run(Script1677810927673.groovy:38)
+	... 13 more
+)
+
+2566-03-03 11:08:03 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at Script1677810927673.run(Script1677810927673.groovy:38)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2566-03-03 11:07:55 - [TEST_CASE][FAILED] - Test Cases/tc1001 VerifyPage: Test Cases/tc1001 VerifyPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-03-03 11:07:55 - [TEST_SUITE][FAILED] - ts 1001 verify all page: Test Cases/tc1001 VerifyPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2566-03-03 11:07:55 - [TEST_SUITE][FAILED] - ts 1001 verify all page: Test Cases/tc1001 VerifyPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:123)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeAreaScreenshot(WebUiBuiltInKeywords.groovy:3881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeAreaScreenshot$6.call(Unknown Source)
+	at tc1001 VerifyPage.run(tc1001 VerifyPage:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677816468681.run(TempTestSuite1677816468681.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Captured area cannot be null
+	at com.kms.katalon.core.webui.util.FileUtil.takeAreaScreenshot(FileUtil.java:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:124)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

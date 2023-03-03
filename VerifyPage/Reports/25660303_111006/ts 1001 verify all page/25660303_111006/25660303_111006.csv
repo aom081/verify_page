@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ts 1001 verify all page,Chrome 110.0.0.0,,,2566-03-03 11:10:12,2566-03-03 11:10:23,11.275s,PASSED
+,,,,,,,
+Test Cases/tc1001 VerifyPage,Chrome 110.0.0.0,,,2566-03-03 11:10:12,2566-03-03 11:10:23,11.074s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2566-03-03 11:10:12,2566-03-03 11:10:14,1.867s,PASSED
+"navigateToUrl(""https://www.cloudnative-skill.com/register"")",Chrome 110.0.0.0,,,2566-03-03 11:10:14,2566-03-03 11:10:17,2.758s,PASSED
+"verifyTextPresent(""Register"", false)",Chrome 110.0.0.0,,,2566-03-03 11:10:17,2566-03-03 11:10:17,0.389s,PASSED
+title = getWindowTitle(),Chrome 110.0.0.0,,,2566-03-03 11:10:17,2566-03-03 11:10:17,0.008s,PASSED
+"verifyMatch(title, ""Modern Software Development Toolchains"", false)",Chrome 110.0.0.0,,,2566-03-03 11:10:17,2566-03-03 11:10:17,0.023s,PASSED
+"brachtext = getAttribute(findTestObject(""brach_dispaly_text""), ""placeholder"")",Chrome 110.0.0.0,,,2566-03-03 11:10:17,2566-03-03 11:10:18,0.367s,PASSED
+"verifyMatch(brachtext, ""เช่น สำนักงานใหญ่"", false)",Chrome 110.0.0.0,,,2566-03-03 11:10:18,2566-03-03 11:10:18,0.002s,PASSED
+"verifyElementNotChecked(findTestObject(""chack_html""), 0)",Chrome 110.0.0.0,,,2566-03-03 11:10:18,2566-03-03 11:10:18,0.322s,PASSED
+"verifyElementNotClickable(findTestObject(""voie_name""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2566-03-03 11:10:18,2566-03-03 11:10:18,0.328s,PASSED
+takeScreenshot(findTestObject(null)),Chrome 110.0.0.0,,,2566-03-03 11:10:18,2566-03-03 11:10:19,0.392s,PASSED
+"click(findTestObject(""address_voie_option2""))",Chrome 110.0.0.0,,,2566-03-03 11:10:19,2566-03-03 11:10:21,2.494s,PASSED
+"verifyElementClickable(findTestObject(""voie_name""))",Chrome 110.0.0.0,,,2566-03-03 11:10:21,2566-03-03 11:10:21,0.423s,PASSED
+"setText(findTestObject(""birthday_in""), ""12/02/2546"")",Chrome 110.0.0.0,,,2566-03-03 11:10:21,2566-03-03 11:10:22,0.695s,PASSED
+"sendKeys(findTestObject(""birthday_in""), Keys.chord(ENTER))",Chrome 110.0.0.0,,,2566-03-03 11:10:22,2566-03-03 11:10:23,0.350s,PASSED
+"auto_age = getAttribute(findTestObject(""auto_age""), ""value"")",Chrome 110.0.0.0,,,2566-03-03 11:10:23,2566-03-03 11:10:23,0.333s,PASSED
+"verifyMatch(auto_age, ""20"", false)",Chrome 110.0.0.0,,,2566-03-03 11:10:23,2566-03-03 11:10:23,0.002s,PASSED

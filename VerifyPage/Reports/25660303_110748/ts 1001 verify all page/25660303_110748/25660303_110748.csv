@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ts 1001 verify all page,Chrome 110.0.0.0,,,2566-03-03 11:07:55,2566-03-03 11:08:03,7.587s,FAILED
+,,,,,,,
+Test Cases/tc1001 VerifyPage,Chrome 110.0.0.0,,,2566-03-03 11:07:55,2566-03-03 11:08:03,7.390s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2566-03-03 11:07:56,2566-03-03 11:07:58,1.856s,PASSED
+"navigateToUrl(""https://www.cloudnative-skill.com/register"")",Chrome 110.0.0.0,,,2566-03-03 11:07:58,2566-03-03 11:08:01,3.533s,PASSED
+"verifyTextPresent(""Register"", false)",Chrome 110.0.0.0,,,2566-03-03 11:08:01,2566-03-03 11:08:02,0.602s,PASSED
+title = getWindowTitle(),Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:02,0.024s,PASSED
+"verifyMatch(title, ""Modern Software Development Toolchains"", false)",Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:02,0.025s,PASSED
+"brachtext = getAttribute(findTestObject(""brach_dispaly_text""), ""placeholder"")",Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:02,0.352s,PASSED
+"verifyMatch(brachtext, ""เช่น สำนักงานใหญ่"", false)",Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:02,0.002s,PASSED
+"verifyElementNotChecked(findTestObject(""chack_html""), 0)",Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:02,0.318s,PASSED
+"verifyElementNotClickable(findTestObject(""voie_name""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2566-03-03 11:08:02,2566-03-03 11:08:03,0.330s,PASSED
+takeAreaScreenshot(null),Chrome 110.0.0.0,,,2566-03-03 11:08:03,2566-03-03 11:08:03,0.023s,FAILED
